@@ -76,7 +76,7 @@ function Homepage() {
 
   const LIST_TEXT_DATA = [
     <ListItemText>
-      {totalBlood / 2} liters of blood have been donated so far.
+      {totalBlood / 2} liters of blood  donated so far.
     </ListItemText>,
     <ListItemText>
       The most available blood type is {allBloodTypes[0]?.blood_type} with{' '}
@@ -104,7 +104,7 @@ function Homepage() {
 
   return (
     <Box>
-      <Typography variant="h5" component="h2" align="center">
+      {/* <Typography variant="h5" component="h2" align="center">
         Donate Blood{' '}
         <FavoriteIcon
           color={mode === 'light' ? 'primary' : 'inherit'}
@@ -117,7 +117,7 @@ function Homepage() {
           fontSize="small"
         />{' '}
         Save Life{' '}
-      </Typography>
+      </Typography> */}
 
       <List>
         {LIST_TEXT_DATA.map((item, index) => (
