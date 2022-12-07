@@ -1,10 +1,10 @@
 import { createTheme } from '@mui/material'
-import { blue, lightBlue, pink } from '@mui/material/colors'
+import { blue, lightBlue, pink, red } from '@mui/material/colors'
 import { Mode } from '../../contexts/themeMode.context'
 
-const primaryColor = pink.A700
-const lPrimaryColor = pink[500]
-const dPrimaryColor = pink[900]
+const primaryColor = red.A700
+const lPrimaryColor = red[500]
+const dPrimaryColor = red[900]
 
 const secondaryColor = blue['800']
 const lSecondaryColor = blue['500']

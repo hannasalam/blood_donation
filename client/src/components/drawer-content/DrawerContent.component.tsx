@@ -70,7 +70,7 @@ function DrawerContent() {
         )}
       </Box>
       <Divider />
-      <CopyRight />
+      {/* <CopyRight /> */}
     </>
   )
 }
