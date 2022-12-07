@@ -1,0 +1,3 @@
+node_modules
+## In real life project the .env file should also be included.
+report.docx
